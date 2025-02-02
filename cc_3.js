@@ -10,5 +10,18 @@ console.log(prices) // Output [6,7,8,9,10]
 let orders = [10,11,12,13,14]; //Define an array of order quantities
 orders[2] = 17; // Adding 5 to the third order amount
 let total = orders.reduce((sum,orders) => sum + orders); //Adding the amount of orders together
-console.log("Updated Orders",orders)// Logginng updated order numbers
+console.log("Updated Orders",orders); // Logginng updated order numbers
 console.log("Total Orders",total); //Output: 65
+
+// Task 3 Employee Performance Tracking Scenario
+
+let employee = {
+name: "John Pork",
+role: "Supervisor",
+performanceScore: 67,
+isActive: true
+
+} // Declaring an employee object
+employee.performanceScore = 72; // Updating the performance score
+employee.promotionEligible = false; // Adding new property
+console.log("Updated Employee Performance Data", employee); //Logging updated employee info
