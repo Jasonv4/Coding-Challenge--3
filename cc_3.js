@@ -25,3 +25,12 @@ isActive: true
 employee.performanceScore = 72; // Updating the performance score
 employee.promotionEligible = false; // Adding new property
 console.log("Updated Employee Performance Data", employee); //Logging updated employee info
+
+//Task 4 Customer Feedback Records Scenario 
+let feedback = [
+    {customerName:"Jim", feedbackText:"Not good enough", rating: "1 star"},
+    {customerName:"Jack", feedbackText: "Really good!", rating: "5 stars"},
+    {CustomerName:"Jessica", feedbackText: "Ok.", rating:"3 stars"}
+]; // Creating array of customer feedback
+feedback.push({customerName: "Janet", feedbackText: "Horrible", rating: "0 stars"}); // Adding New Customer Feedback
+console.log("Customer Feedback", feedback)
