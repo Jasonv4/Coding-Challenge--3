@@ -33,4 +33,4 @@ let feedback = [
     {CustomerName:"Jessica", feedbackText: "Ok.", rating:"3 stars"}
 ]; // Creating array of customer feedback
 feedback.push({customerName: "Janet", feedbackText: "Horrible", rating: "0 stars"}); // Adding New Customer Feedback
-console.log("Customer Feedback", feedback) // 
+console.log("Customer Feedback", feedback) // Logging entire feedback list
