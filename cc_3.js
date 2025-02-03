@@ -34,3 +34,15 @@ let feedback = [
 ]; // Creating array of customer feedback
 feedback.push({customerName: "Janet", feedbackText: "Horrible", rating: "0 stars"}); // Adding New Customer Feedback
 console.log("Customer Feedback", feedback) // Logging entire feedback list
+
+//Task 5 Inventory Management System Scenario 
+let inventory = {
+    itemName: "Cheeto Puffs",
+    stockCount: 68,
+    price: 2.99,
+    calculateTotalValue: function() {
+        return this.stockCount * this.price
+    }
+}; //Declared object with Properties
+console.log("Inventory Details", inventory); //Logging Inventory
+console.log("Inventory Value", inventory.calculateTotalValue()); //Logging Total Value of inventory
